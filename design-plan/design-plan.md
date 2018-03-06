@@ -10,10 +10,7 @@ I chose Abby as my persona because she differs in behavior from me in most of th
 
 ## 2.Describe your Catalog
 
-My catalog is going to be a 'Vinyl and CD Collection' (say I'm selling my whole collection so users can browse the selection). The attributes I want to have are: album name, artist, year released, genre, type (cd or vinyl), and length (number of tracks).
-
-If possible, if I have extra time I hope to include an attribute that holds all the track listings so you can find the album that holds a particular song.
-
+My catalog is going to be a 'Vinyl Collection' (say I'm selling my whole collection so users can browse the selection). The attributes I want to have are: album name, artist, year released, genre, length (number of tracks), and record label.
 
 ## 3. Sketch & Wireframe
 
@@ -27,13 +24,15 @@ My design would work for Abby, who has low self-efficacy, because it is pretty s
 
 ## 4. Database Schema Design
 
-Table: cd_vinyl
-* field 1: the album name
-* field 2: the artist name (I want to have multiple albums by the same artist)
-* field 3: the year the album was released
-* field 4: the genre of the album's music
-* field 5: the length / number of tracks on the cd/vinyl
-* filed 6: the type (I either have it on CD or on Vinyl)
+Table: vinyl
+* id => UNIQUE, AUTO INCREMENT, PRIMARY KEY
+* album_name => TEXT, NOT NULL
+* artist_name => TEXT, NOT NULL
+* year => INTEGER, NOT NULL
+* genre => REAL, NOT NULL
+* number_of_tracks => INTEGER, NOT NULL
+* tracks => TEXT, NOT NULL
+* record_label => REAL, NOT NULL
 
 ## 5. Database Query Plan
 
