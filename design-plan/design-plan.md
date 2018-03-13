@@ -82,3 +82,8 @@ For example, if the user only searched for a "Rock" cd's then I would concatenat
 As needed, I will escape values using the :var syntax.
 
 ## 7. Additional Code Planning
+
+Final Submission:
+I deviated slightly from my original design plan:
+I added the "add" function which is a separate column on the right hand side (easy to use, especially for my Persona, Abby).
+I also included some images in the header for an extra design aspect, and those image's sources in the footer. In addition, when the user tries to submit something invalid or tries to submit an album already in the table, it gives them an error message with a back button to the home page. 
